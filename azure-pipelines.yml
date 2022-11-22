@@ -52,8 +52,7 @@ stages:
   - deployment: DeployLinuxWebApp
     displayName: Deploy Linux Web App
     environment: $(environmentName)
-    pool:
-      vmImage: $(vmImageName)
+    pool: KOTTA agent pool
     strategy:
       runOnce:
         deploy:
