@@ -18,7 +18,8 @@ variables:
   environmentName: 'mySuperAwesomeApp'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: '
+KOTTA agent pool
 
 stages:
 - stage: Build
