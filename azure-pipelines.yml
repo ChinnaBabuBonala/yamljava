@@ -18,7 +18,7 @@ variables:
   environmentName: 'yamlpipelineforjava'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'linuxagentmachine'
 
 stages:
 - stage: Build
